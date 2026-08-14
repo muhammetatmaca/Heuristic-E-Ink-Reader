@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Mobil Cihazlarda E-Ink Teknolojisi Simülasyonu ile EPUB ve PDF Okuma Uygulaması Mimarisi ve Geliştirme Raporu</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+    @bottom-center {
+      content: counter(page);
+      font-family: "Times New Roman", Times, serif;
+      font-size: 9pt;
+      color: #666;
+    }
+  }
+
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 60mm;
+  }
+
+  .cover-title {
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 8mm;
+    line-height: 1.3;
+    color: #111;
+  }
+
+  .cover-subtitle {
+    font-size: 13pt;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 25mm;
+  }
+
+  .cover-meta {
+    font-size: 10.5pt;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .divider {
+    width: 60px;
+    height: 2px;
+    background: #333;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 15pt;
+    font-weight: bold;
+    border-bottom: 1.5px solid #222;
+    padding-bottom: 4px;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    page-break-after: avoid;
+  }
+
+  h2 {
+    font-size: 12.5pt;
+    font-weight: bold;
+    margin-top: 18pt;
+    margin-bottom: 8pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 14pt;
+    margin-bottom: 6pt;
+    page-break-after: avoid;
+  }
+
+  p {
+    text-align: justify;
+    margin-bottom: 10pt;
+    text-indent: 1.5em;
+  }
+
+  p.no-indent {
+    text-indent: 0;
+  }
+
+  ul, ol {
+    margin-top: 4pt;
+    margin-bottom: 10pt;
+    padding-left: 2em;
+  }
+
+  li {
+    margin-bottom: 4pt;
+    text-align: justify;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12pt;
+    margin-bottom: 14pt;
+    font-size: 10pt;
+    page-break-inside: avoid;
+  }
+
+  th, td {
+    border: 1px solid #777;
+    padding: 6pt 8pt;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  .formula-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-left: 3px solid #333;
+    padding: 8pt 12pt;
+    margin: 10pt 0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 9.5pt;
+    page-break-inside: avoid;
+  }
+
+  .code-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 8pt 10pt;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 8.5pt;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    margin: 10pt 0;
+    page-break-inside: avoid;
+  }
+
+  .caption {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+    margin-top: -6pt;
+    margin-bottom: 12pt;
+  }
+</style>
+</head>
+<body>
+
+<!-- KAPAK SAYFASI -->
+<div class="cover">
+  <div class="cover-title">Mobil Cihazlarda E-Ink Teknolojisi Simülasyonu ile<br>EPUB ve PDF Okuma Uygulaması Mimarisi ve Geliştirme Raporu</div>
+  <div class="divider"></div>
+  <div class="cover-subtitle">Elektroforetik Gösterge Fiziği, GPU/WebGL Shader Tabanlı Dithering, Waveform LUT Voltaj Sürüşü ve Tipografik Ergonomi Üzerine Kapsamlı Sistem Tasarımı</div>
+  <div class="cover-meta">
+    <strong>Proje:</strong> Heuristic E-Ink Reader System<br>
+    <strong>Sürüm:</strong> 2.4.0 (Master Architecture Specification)<br>
+    <strong>Tarih:</strong> 2026<br>
+    <strong>Hedef Platformlar:</strong> React Native, Expo SDK 57, WebGL (Three.js), iOS / Android
+  </div>
+</div>
+
+<!-- GİRİŞ -->
+<h1>Giriş ve Problem Tanımı</h1>
+<p>
+Dijital yayıncılık ve mobil grafik işleme teknolojilerinin kesişiminde, akıllı telefonların ve tabletlerin yayıcı (emissive) OLED / IPS LCD panellerinde, fiziksel E-Paper (E-Ink) cihazlarının yansıtmalı (reflective), gözü yormayan ve odaklanmayı artıran görsel deneyimini taklit etmek ileri düzey bir yazılım ve render mimarisi gerektirir.
+</p>
+<p>
+Geleneksel E-Ink ekranlar, fiziksel mikro-kapsüller içerisinde yüzen pozitif yüklü beyaz (Titanyum Dioksit, TiO2) ve negatif yüklü siyah (Karbon Siyahı) mikro-pigmentlerden meydana gelir. Piksel elektrotlarına uygulanan voltaj darbeleri (+15V / -15V) ile bu partiküller yüzeye hareket ettirilerek görüntü oluşturulur. Foton yaymayan bu yapının sonucu olarak mavi ışık emisyonu sıfırdır ve ortam ışığıyla okunur.
+</p>
+<p>
+Mobil cihazlarda bu deneyimi yüksek doğrulukla yaşatabilmek için; Readium ve PDFium tabanlı çift modlu doküman işleme motoru, Three.js WebGL tabanlı 3D silindirik yaprak bükülme mekaniği, 16-seviyeli E-Ink Carta kuantizasyonu, hata yayılımlı dither matrisleri, dalga formu (LUT waveform) simülasyonu ve astigmatizm halasyonunu önleyen optik ergonomi ilkeleri tek bir bütünleşik sistemde birleştirilmiştir.
+</p>
+
+<!-- BÖLÜM 1 -->
+<h1>1. Sistem Mimarisi ve Doküman İşleme Motoru</h1>
+<p>
+Bir mobil okuma uygulamasının omurgasını, yapısal olarak birbirinden tamamen farklı dosya biçimlerini hızla ayrıştırıp piksel ve vektör grafik yüzeylerine dönüştüren çift kanallı render motoru oluşturur.
+</p>
+
+<h2>1.1. EPUB ve PDF Ayrıştırma Katmanı</h2>
+<p>
+EPUB belgeleri HTML5, XHTML ve CSS standartları üzerinde dinamik akışlı (reflowable) bir yapı sunarken; PDF formatı katı koordinatlı vektör ve matris grafiklerinden oluşur.
+</p>
+<ul>
+  <li><strong>EPUB İşleme Motoru:</strong> JSZip kütüphanesi ile container.xml ve OPF manifest dosyaları ayrıştırılır. NCX/Nav TOC hiyerarşisi çözümlenerek XHTML bölümleri sıralanır. Metinler, tipografi ayarlarına (font ailesi, punto boyutu, satır aralığı, harf boşluğu, kenar payı) göre matematiksel bir satır/kelime kırılma algoritması ile ekran boyutuna dinamik olarak sayfalanır.</li>
+  <li><strong>PDF İşleme Motoru:</strong> PDF belgeleri plain text olarak parçalanmaz; belgenin orijinal vektörel bütünlüğünü, mizanpajını, tipografisini ve illüstrasyonlarını korumak amacıyla Mozilla PDF.js çekirdeği kullanılır. Sayfalar cihaz çözünürlüğüne (DPR) göre GPU belleğinde yüksek netlikte canvas üzerine rasterize edilir.</li>
+</ul>
+
+<h2>1.2. Bellek Yönetimi ve KOReader Sayfa Havuzu (Page Pooling)</h2>
+<p>
+Açık kaynaklı KOReader motorunun mimari prensipleri doğrultusunda, yüzlerce megabaytlık büyük PDF ve EPUB kitapları belleğe aynı anda yüklenmez.
+</p>
+<p>
+Uygulama, bellek tüketimini sabit tutmak amacıyla LRU (Least Recently Used) tabanlı bir sayfa havuzu yönetir. Yalnızca aktif sayfa (N), bir önceki sayfa (N-1) ve bir sonraki sayfa (N+1) GPU belleğinde canlı doku (texture) olarak tutulur. Görüş alanından çıkan uzak sayfaların canvas ve doku referansları anında serbest bırakılarak bellek sızıntıları (memory leaks) engellenir.
+</p>
+
+<!-- BÖLÜM 2 -->
+<h1>2. E-Ink Optik Fiziği ve GPU Tabanlı Simülasyon</h1>
+<p>
+E-Ink Carta ekranların kendine has fiziksel ve optik karakteristikleri; 16 seviyeli kısıtlı gri tonlama, mikro-pigment grenleri, voltaj dalga formu yenileme süreleri, Regal diferansiyel temizlik ve artık hayalet izlerdir (ghosting).
+</p>
+
+<h2>2.1. Gri Tonlama Kuantizasyonu ve Dithering Algoritmaları</h2>
+<p>
+RGB renk uzayındaki 24-bit görüntü akışı öncelikle insan gözünün spektral duyarlılık eğrisine (ITU-R BT.601 standardı) göre lüminans değerine dönüştürülür:
+</p>
+<div class="formula-box">
+  L = 0.299 * R + 0.587 * G + 0.114 * B<br>
+  L_quantized = floor( (L / 255.0) * 15.0 + 0.5 ) * (255.0 / 15.0)
+</div>
+<p class="caption">Formül 1: 16-Seviyeli (4-bit) E-Ink Carta Gri Tonlama Kuantizasyonu</p>
+
+<p>
+Kuantize edilen gri tonlarındaki keskin bantlaşmaları (color banding) yok etmek ve mikro-kapsül dokusunu oluşturmak için 5 farklı optik algoritma entegre edilmiştir:
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Algoritma</th>
+      <th>Matematiksel Yayılım Matrisi</th>
+      <th>Hata Oranı</th>
+      <th>Kullanım Alanı</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Atkinson</strong></td>
+      <td>6 komşuya dağıtım: (x+1,y)=1/8, (x+2,y)=1/8, (x-1,y+1)=1/8, (x,y+1)=1/8, (x+1,y+1)=1/8, (x,y+2)=1/8</td>
+      <td>%75 (Kayıplı)</td>
+      <td>Metin kenarlarında mikro-kontrastı artıran e-paper standardı</td>
+    </tr>
+    <tr>
+      <td><strong>Floyd-Steinberg</strong></td>
+      <td>4 komşuya dağıtım: (x+1,y)=7/16, (x-1,y+1)=3/16, (x,y+1)=5/16, (x+1,y+1)=1/16</td>
+      <td>%100 (Tam)</td>
+      <td>Gri tonlamalı fotoğraf ve illüstrasyonlar</td>
+    </tr>
+    <tr>
+      <td><strong>Bayer 4x4</strong></td>
+      <td>Sıralı eşik matrisi: M(x mod 4, y mod 4) / 16.0</td>
+      <td>0 (Deterministik)</td>
+      <td>Hızlı 3D sayfa geçişleri ve gazete tramı</td>
+    </tr>
+    <tr>
+      <td><strong>Blue Noise</strong></td>
+      <td>Yüksek frekanslı mavi gürültü dağılımı (Void-and-Cluster)</td>
+      <td>İstatiksel Eşit</td>
+      <td>Gözü yormayan homojen organik doku</td>
+    </tr>
+    <tr>
+      <td><strong>None (Threshold)</strong></td>
+      <td>L > 128 ? 255 : 0</td>
+      <td>0 (Sert)</td>
+      <td>Saf 1-bit monokrom metin okuma</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>2.2. Waveform LUT Voltaj Sürüşü ve Durum Makinesi</h2>
+<p>
+Gerçek E-Ink kontrolcüleri (EPDC), elektrotlara rastgele voltaj vermez; her geçiş için özel bir Look-Up Table (LUT) darbe dizilimi uygular. Uygulama bu durum makinesini 5 farklı sürüş modu ile emüle eder:
+</p>
+<ul>
+  <li><strong>A2 (Hızlı 1-Bit - 100ms):</strong> Yalnızca siyah ve beyaz uç voltajlar verilir, ara tonlar atlanır. Sayfa çevirme anında gerçekleşir, ancak her sayfada hayalet iz (ghosting) birikir.</li>
+  <li><strong>DU (Direct Update - 220ms):</strong> Menü ve hızlı arayüz güncellemeleri için optimize edilmiş hafif ters voltaj modu.</li>
+  <li><strong>Regal (Diferansiyel LUT - 320ms):</strong> İki sayfa arasındaki piksel fark matrisi hesaplanır. Yalnızca değişen piksellere lokal ters dalga boyu uygulanır; ekran kararmadan gölgeler silinir.</li>
+  <li><strong>GLR16 (Metin Odaklı - 480ms):</strong> 16 gri seviyeli tipografi için optimize edilmiş net okuma modu.</li>
+  <li><strong>GC16 (Tam Kinetik Çakım - 950ms):</strong> Tüm ekran önce -15V ile tam siyaha, ardından +15V ile tam beyaza sürülerek partiküllerin kinetik hafızası sıfırlanır.</li>
+</ul>
+
+<h2>2.3. Ortam Sıcaklığı ve Sıvı Viskozitesi Telafisi</h2>
+<p>
+E-Ink mikro-kapsüllerindeki sıvı ortam soğukta viskozlaşır, sıcakta ise akışkanlaşır. Sıcaklık düştükçe partiküllerin hareket süresi uzar. Sistem, ortam sıcaklığına göre LUT süresini matematiksel olarak ölçekler:
+</p>
+<div class="formula-box">
+  k_temp = T &lt; 10°C ? 1.4 : ( T &gt; 35°C ? 0.85 : 1.0 )<br>
+  T_compensated = T_nominal * k_temp
+</div>
+<p class="caption">Formül 2: Sıcaklık Bağımlı LUT Sürüş Süresi Telafisi</p>
+
+<!-- BÖLÜM 3 -->
+<h1>3. Three.js 3D Silindirik Mesh Yaprak Çevirme Motoru</h1>
+<p>
+Sayfa geçişlerinde iki boyutlu basit kaydırma yerine, gerçek bir kitabın yaprağını parmak ucuyla tutarak bükme hissini simüle etmek üzere WebGL Three.js mimarisi kurgulanmıştır.
+</p>
+
+<h2>3.1. 40x40 Poligonlu Silindirik Deformasyon Matematiği</h2>
+<p>
+Sayfa geometrisi <code>THREE.PlaneGeometry(width, height, 40, 40)</code> olarak 1600 tepe noktasından (vertex) oluşturulur. Kullanıcı parmağını yatay eksende kaydırdıkça ($dx$), katlanma ilerlemesi ($p \in [0, 1]$) hesaplanır. Bükülme ekseni $curlX = \frac{W}{2} - (p \cdot 1.35W)$ olarak dinamik ötelenir.
+</p>
+<div class="formula-box">
+  dist = ox - curlX;<br>
+  angle = dist / R; // R: Bükülme Yarıçapı (0.45)<br>
+  posX = curlX + R * sin(angle);<br>
+  posY = oy + (dist * 0.08 * (oy / H)); // Konik Köşe Bükülmesi<br>
+  posZ = oz + R * (1.0 - cos(angle)) * (1.0 - p * 0.3);
+</div>
+<p class="caption">Formül 3: Three.js Vertex Shader Silindirik Sayfa Katlama Denklemleri</p>
+<p>
+Bu matematiksel model, kağıdın yalnızca silindirik olarak kıvrılmasını değil, aynı zamanda sayfa köşesinin elin hareket açısına doğru konik olarak hafifçe esnemesini sağlar.
+</p>
+
+<h2>3.2. Çift Yönlü Sayfa Döngüsü ve Doku Yönetimi</h2>
+<p>
+Sola kaydırıldığında aktif sayfa (<code>currentTex</code>) 3D olarak kıvrılarak alttaki sonraki sayfayı (<code>nextTex</code>) açığa çıkarır. Sağa kaydırıldığında ise önceki sayfa (<code>prevTex</code>) sol kenardan 3D katlanarak mevcut sayfanın üzerine gelir. Sayfa geçişi tamamlandığında WebGL context yok edilmez; <code>window.updatePageContent()</code> ile 2D canvas dokuları dinamik güncellenerek bellek ve performans sürekliliği garanti altına alınır.
+</p>
+
+<!-- BÖLÜM 4 -->
+<h1>4. Fiziksel Kağıt Dokusu ve Tipografik Ergonomi</h1>
+
+<h2>4.1. Otantik Doku Motoru ve Deckle-Edge Kesimi</h2>
+<p>
+Uygulamada 7 farklı fiziksel kağıt türü bulunmaktadır:
+</p>
+<ol>
+  <li><strong>Tırtıklı & Ham Kesim (Deckle Edge):</strong> Giyotinle kesilmemiş, ham pamuk lifleri ve pürüzlü diş kabartması içeren otantik kitap kağıdı.</li>
+  <li><strong>Kitap Parşömeni (#F4F1D0):</strong> Referans nostaljik sarı-mat kitap sayfası.</li>
+  <li><strong>Japon Washi:</strong> Uzun dut lifli doğal organik doku.</li>
+  <li><strong>Pamuklu Kağıt:</strong> Mikro lifli doğal mat yüzey.</li>
+  <li><strong>Geri Dönüştürülmüş Kraft:</strong> Rustik ham saman dokusu.</li>
+  <li><strong>Pürüzsüz Parşömen:</strong> Modern saten yüzey.</li>
+  <li><strong>Gazete Kağıdı:</strong> Düşük kontrastlı yumuşak gri ton.</li>
+</ol>
+
+<h2>4.2. Halasyon Önleme ve Göz Sağlığı</h2>
+<p>
+Karanlık ortamlarda katı siyah (#000000) üzerine saf beyaz (#FFFFFF) metin okumak, göz bebekleri genişlediğinde ışığın göz içinde kırılarak metin etrafında bulanık bir hale (halation) oluşturmasına neden olur. Bu durum astigmatizmi olan bireylerde şiddetli göz ve baş ağrısı yaratır.
+</p>
+<p>
+Uygulamanın <strong>Anti-Halasyon Modu</strong>, arka planı koyu antrasit (#212222), metinleri ise sıcak sarı-krem (#F4F1D0) olarak ayarlayarak ışık saçılmasını ve siliyer kas gerilimini tamamen ortadan kaldırır.
+</p>
+
+<!-- BÖLÜM 5 -->
+<h1>5. Teknoloji Yığını ve Kalıcılık Mimarisi</h1>
+<p>
+Sistem React Native ve Expo SDK 57 ekosistemi üzerinde inşa edilmiştir:
+</p>
+<ul>
+  <li><strong>Durum Yönetimi (State Management):</strong> E-Ink optik ayarları ve tipografi parametreleri için yüksek performanslı <code>Zustand</code> store mimarisi.</li>
+  <li><strong>Kalıcı Depolama (Storage):</strong> Cihaza yüklenen tüm EPUB ve PDF kitapları, okuma ilerleme yüzdeleri, son kalınan sayfa ve yer imleri <code>AsyncStorage</code> ve <code>expo-file-system</code> üzerinde kalıcı olarak saklanır. Uygulama kapatılıp açıldığında kitaplar ve ayarlar asla kaybolmaz.</li>
+  <li><strong>Güvenli Dosya İçe Aktarma (File Importer):</strong> Yalnızca geçerli <code>.epub</code>, <code>.pdf</code> ve <code>.txt</code> formatlarına izin verilir; fotoğraf ve geçersiz dosyalar doğrulama katmanında filtrelenir.</li>
+  <li><strong>Sıfır-FPS Dinamik Güç Tasarrufu:</strong> Sayfa statik okunurken GPU render döngüsü uyutularak batarya tüketimi sıfıra indirilir.</li>
+</ul>
+
+<!-- SONUÇ -->
+<h1>Sonuç</h1>
+<p>
+Geliştirilen bu mimari, yayıcı akıllı telefon ekranlarında fiziksel bir E-Paper cihazının tüm optik, mekanik ve tipografik karakteristiklerini yüksek doğruluk ve akıcılıkla yaşatan bütünleşik bir okuma ortamı sağlamıştır.
+</p>
+
+</body>
+</html>

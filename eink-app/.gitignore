@@ -1,0 +1,36 @@
+# Books and Large Documents
+*.epub
+*.pdf
+*.mobi
+*.azw3
+*.docx
+*.txt
+
+# Android and iOS Signing Keys & Secrets
+*.keystore
+*.jks
+*.p12
+*.key
+*.pem
+
+# Native build artifacts
+android/app/build/
+android/.gradle/
+android/build/
+ios/build/
+ios/Pods/
+*.aab
+*.apk
+
+# Dependencies & Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Logs & System
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env*.local
