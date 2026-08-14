@@ -1,0 +1,268 @@
+[
+  {
+    "code": "tr-TR",
+    "language": "Turkish (Türkçe)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Gerçek E-Paper kağıt dokusu ve 3D sayfa çevirme ile gözü yormayan EPUB & PDF okuyucu.",
+    "long_description": "Heuristic E-Ink Reader, akıllı telefon ve tablet ekranlarında fiziksel bir E-Kitap okuyucunun (E-Paper) yansıtmalı ve huzurlu okuma deneyimini simüle eden yeni nesil bir EPUB ve PDF okuma uygulamasıdır.\n\nÖNE ÇIKAN ÖZELLİKLER:\n• Gerçekçi E-Paper Simülasyonu: 16 seviyeli gri tonlama, Atkinson ve Floyd-Steinberg dither algoritmaları, dalga formu (LUT) yenileme modları.\n• 3D Gerçek Sayfa Katlama: Three.js WebGL motoru ile parmak hareketinize duyarlı, gerçek yaprak bükülme fiziği.\n• Otantik Kağıt Dokuları: Tırtıklı ham kesim (Deckle Edge), parşömen, Japon washi ve pamuklu kağıt seçenekleri.\n• Çift Motorlu Okuma: Akıcı dinamik EPUB mizanpajı ve yüksek çözünürlüklü vektörel PDF görüntüleme.\n• Tipografik Ergonomi: EB Garamond ve Literata fontları, iki yana kusursuz yaslama, tipo baskı mürekkep derinliği.\n• Anti-Halasyon Gece Modu: Astigmatizm ve göz yorgunluğunu önleyen yumuşak antrasit ve krem renk paleti.\n• %100 Çevrimdışı ve Güvenli: Sıfır telemetri, sıfır reklam. Kitaplarınız yalnızca cihazınızda saklanır."
+  },
+  {
+    "code": "en-US",
+    "language": "English (US)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Eye-friendly EPUB & PDF reader with authentic E-Paper texture and 3D page flip.",
+    "long_description": "Heuristic E-Ink Reader transforms your mobile device into a reflective, distraction-free E-Paper reader with physical book aesthetics and advanced optical physics.\n\nKEY FEATURES:\n• Authentic E-Paper Emulation: 16-level grayscale quantization, Atkinson & Floyd-Steinberg dithering, hardware LUT waveform pulse simulation.\n• 3D Cylindrical Page Curl: WebGL Three.js physics engine providing organic, touch-responsive page peeling.\n• Tactile Paper Textures: Deckle-edge rough paper, vintage book parchment, Japanese washi, and cotton rag.\n• Dual-Engine Document Processing: Reflowable EPUB pagination and crisp vector PDF rendering.\n• Letterpress Typography: EB Garamond, Literata, true book justification, and letterpress ink squeeze depth.\n• Anti-Halation Dark Mode: Eliminates retinal glare and eye strain for comfortable low-light reading.\n• 100% Offline & Private: Zero telemetry, zero tracking, no ads. Your library stays securely on your device."
+  },
+  {
+    "code": "de-DE",
+    "language": "German (Deutsch)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Augenfreundlicher EPUB & PDF Reader mit echter E-Paper Textur und 3D-Umblättern.",
+    "long_description": "Heuristic E-Ink Reader verwandelt Ihr Smartphone in ein reflexionsfreies E-Paper-Lesegerät mit authentischer Buchhaptik und fortschrittlicher optischer Simulation.\n\nHAUPTMERKMALE:\n• E-Paper-Simulation: 16-Stufen-Graustufen, Atkinson-Dithering und Wellenform-LUT-Aktualisierung.\n• 3D-Seitenumblättern: Physikalisch akkurates 3D-Biegen der Buchseiten mit WebGL Three.js.\n• Echte Papiertesturen: Büttenpapier (Deckle Edge), Buchpergament, Washi und Baumwollpapier.\n• EPUB- & PDF-Unterstützung: Dynamischer EPUB-Umbruch und gestochen scharfe PDF-Darstellung.\n• Buchdruck-Typografie: EB Garamond, Blocksatz und natürliche Buchdruckfarbtiefe.\n• Anti-Halations-Modus: Schont die Augen bei Dunkelheit und verhindert Lichthöfe.\n• 100% Offline & Privat: Keine Werbung, kein Tracking. Ihre Bücher bleiben lokal auf Ihrem Gerät."
+  },
+  {
+    "code": "fr-FR",
+    "language": "French (Français)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Lecteur EPUB et PDF reposant avec texture E-Paper et tournage de page 3D.",
+    "long_description": "Heuristic E-Ink Reader transforme votre écran en une liseuse E-Paper sans reflet, alliant confort visuel absolu et élégance du livre imprimé.\n\nPOINTS FORTS :\n• Simulation E-Paper Avancée : 16 niveaux de gris, tramage Atkinson, formes d'onde LUT réalistes.\n• Tournage de Page 3D : Rendu WebGL Three.js pour une courbure physique naturelle des pages au toucher.\n• Textures de Papier Réelles : Papier vergé, parchemin de livre, washi japonais et papier coton.\n• Moteur Double EPUB & PDF : Mise en page dynamique reflowable et rendu vectoriel haute fidélité.\n• Typographie d'Édition : EB Garamond, justification parfaite et profondeur d'encre typographique.\n• Mode Sombre Anti-Halation : Évite la fatigue oculaire et les halos lumineux en lecture nocturne.\n• 100% Hors-Ligne et Privé : Zéro pistage, zéro publicité. Vos livres restent sur votre appareil."
+  },
+  {
+    "code": "es-ES",
+    "language": "Spanish (Español)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Lector EPUB y PDF con textura E-Paper auténtica y giro de página 3D realista.",
+    "long_description": "Heuristic E-Ink Reader convierte tu móvil en un lector de tinta electrónica antirreflejo, diseñado para una lectura inmersiva sin fatiga visual.\n\nCARACTERÍSTICAS PRINCIPALES:\n• Emulación E-Paper Real: 16 niveles de gris, tramado Atkinson y simulación de pulsos LUT.\n• Paso de Página en 3D: Motor físico WebGL Three.js que dobla las páginas con respuesta táctil fluida.\n• Texturas de Papel Artesanal: Bordes rústicos (Deckle Edge), pergamino clásico, washi y algodón.\n• Procesamiento Dual EPUB y PDF: Mapeo dinámico de texto y renderizado vectorial nítido de PDF.\n• Tipografía Editorial: Fuentes EB Garamond y Literata, justificación completa y tinta con relieve.\n• Modo Noche Anti-Halación: Protege la vista en la oscuridad eliminando halos y destellos molestos.\n• 100% Privado y Offline: Sin anuncios ni telemetría. Tus libros se guardan exclusivamente en tu dispositivo."
+  },
+  {
+    "code": "it-IT",
+    "language": "Italian (Italiano)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Lettore EPUB e PDF con texture carta E-Ink e sfogliamento 3D realistico.",
+    "long_description": "Heuristic E-Ink Reader trasforma il tuo smartphone in un lettore E-Paper opaco e rilassante per gli occhi, con la raffinatezza della stampa tradizionale.\n\nCARATTERISTICHE:\n• Simulazione E-Paper Fedele: 16 tonalità di grigio, dithering Atkinson e aggiornamento LUT.\n• Sfogliamento Pagine 3D: Fisica di curvatura delle pagine basata su WebGL Three.js.\n• Pregiate Texture di Carta: Carta a bordi intonsi (Deckle Edge), pergamena, washi e cotone.\n• Supporto Doppio EPUB & PDF: Impaginazione fluida dei testi e visualizzazione PDF ad alta definizione.\n• Tipografia Classica: Font EB Garamond, giustificazione perfetta ed effetto inchiostro tipografico.\n• Modalità Anti-Aloni: Massima ergonomia visiva per la lettura al buio.\n• 100% Offline & Sicuro: Nessuna pubblicità, nessun tracciamento. I tuoi libri restano privati."
+  },
+  {
+    "code": "pt-BR",
+    "language": "Portuguese (Português)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Leitor EPUB e PDF com textura de papel E-Ink e virada de página 3D realista.",
+    "long_description": "Heuristic E-Ink Reader simula a experiência calma e sem reflexos dos leitores digitais E-Paper na tela do seu celular ou tablet.\n\nDESTAQUES:\n• Simulação Realista de E-Paper: Escala de 16 tons de cinza, dithering Atkinson e atualização por forma de onda (LUT).\n• Virada de Página em 3D: Curvatura física das folhas com resposta ao toque via WebGL Three.js.\n• Texturas Físicas de Papel: Papel artesanal com bordas rústicas, pergaminho clássico, washi e algodão.\n• Suporte Completo a EPUB e PDF: Ajuste fluido de texto e renderização vetorial nítida.\n• Tipografia de Livro Físico: EB Garamond, alinhamento justificado e profundidade de prensa tipográfica.\n• Modo Noturno Anti-Halos: Elimina o ofuscamento e o cansaço visual no escuro.\n• 100% Offline e Privado: Sem anúncios ou rastreamento. Seus livros ficam salvos apenas no seu aparelho."
+  },
+  {
+    "code": "ru-RU",
+    "language": "Russian (Русский)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Комфортная читалка EPUB и PDF с текстурой E-Paper и 3D-перелистыванием страниц.",
+    "long_description": "Heuristic E-Ink Reader превращает экран смартфона в матовую электронную книгу с физической текстурой бумаги и бережным отношением к зрению.\n\nКЛЮЧЕВЫЕ ВОЗМОЖНОСТИ:\n• Точная эмуляция E-Paper: 16 градаций серого, дизеринг Аткинсона, алгоритмы обновления формы волны (LUT).\n• Реалистичное 3D-перелистывание: Физический изгиб страниц под пальцем на базе WebGL Three.js.\n• Натуральные текстуры бумаги: Неровные края (Deckle Edge), книжный пергамент, бумага васи и хлопок.\n• Поддержка EPUB и PDF: Плавная верстка электронных книг и кристально четкий рендеринг PDF.\n• Классическая типографика: Гарнитуры EB Garamond и Literata, выключка по формату, эффект типографской печати.\n• Режим защиты от ореолов: Снижает нагрузку на глаза и устраняет блики при чтении в темноте.\n• 100% Офлайн и Безопасность: Без рекламы и сбора данных. Ваши книги хранятся только на устройстве."
+  },
+  {
+    "code": "ja-JP",
+    "language": "Japanese (日本語)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "本物の電子ペーパー質感と3Dページめくりを備えた目に優しいEPUB・PDFリーダー。",
+    "long_description": "Heuristic E-Ink Readerは、スマートフォンの画面上に電子ペーパー（E-Paper）端末の落ち着いた紙のような読書体験を再現する次世代リーダーです。\n\n主な特徴：\n• 本格的なE-Paperシミュレーション：16階調グレースケール、Atkinsonディザリング、LUT波形更新。\n• 3Dリアルページめくり：WebGL Three.jsによる指の動きに追従する紙のしなりと立体カール。\n• 豊かな紙の質感：手漉き和紙、耳付きラフペーパー、羊皮紙、コットン紙テクスチャ。\n• EPUB & PDF両対応：リフロー型EPUBの美しい組版と鮮明なベクトルPDF表示。\n• 活版印刷の美学：EB Garamond、両端揃え組版、活版インクの深み。\n• アンチハレーション夜間モード：暗所でも目に優しいコントラスト設計。\n• 完全オフライン＆プライバシー保護：広告なし、トラッキングなし。本は端末内のみに保存されます。"
+  },
+  {
+    "code": "ko-KR",
+    "language": "Korean (한국어)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "전자잉크 종이 질감과 3D 책장 넘김을 제공하는 눈이 편한 EPUB & PDF 리더.",
+    "long_description": "Heuristic E-Ink Reader는 모바일 기기에서 전자책 단말기(E-Paper) 특유의 눈부심 없는 편안한 종이 질감 독서 환경을 구현합니다.\n\n주요 기능:\n• 리얼한 E-Paper 물리 엔진: 16단계 그레이스케일, Atkinson 디더링, LUT 웨이브폼 펄스 시뮬레이션.\n• 3D 책장 넘김 효과: WebGL Three.js 기반의 자연스러운 페이지 휨 및 입체 애니메이션.\n• 다양한 종이 텍스처: 전통 수제지(Deckle Edge), 양피지, 한지/화지, 코튼 페이퍼 질감.\n• EPUB 및 PDF 듀얼 엔진: 유려한 리플로우 텍스트 정렬 및 고해상도 벡터 PDF 렌더링.\n• 활판 인쇄 타이포그래피: EB Garamond, 완벽한 양쪽 맞춤 정렬, 활판 잉크 프레스 깊이감.\n• 안티 헐레이션 야간 모드: 어두운 곳에서도 눈의 피로를 최소화하는 소프트 컬러 팔레트.\n• 100% 오프라인 & 완벽한 보안: 광고 없음, 추적 없음. 책 데이터는 기기에만 안전하게 보관됩니다."
+  },
+  {
+    "code": "zh-CN",
+    "language": "Chinese Simplified (简体中文)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "还原墨水屏纸质触感与3D翻页效果的护眼EPUB与PDF阅读器。",
+    "long_description": "Heuristic E-Ink Reader 将您的移动设备转变为反光柔和、无眩光的电子墨水屏（E-Paper）阅读器，带来沉浸式纸质书阅读体验。\n\n核心功能：\n• 真实墨水屏模拟：16级灰阶量化、Atkinson抖动算法与硬件LUT波形刷新。\n• 3D立体仿真翻页：基于WebGL Three.js引擎，实时跟随手指触摸呈现纸张弯曲物理效果。\n• 实体纸张纹理：毛边纸（Deckle Edge）、复古羊皮纸、和纸与棉浆纸质感。\n• EPUB与PDF双引擎：支持重排EPUB动态排版与矢量级高清晰度PDF渲染。\n• 活字印刷级排版：优雅衬线字体、精准两端对齐排版与油墨压印质感。\n• 防晕光夜间模式：有效消除暗光环境下字体边缘的散射光晕，保护视力。\n• 100% 离线与隐私安全：无广告、无数据收集。所有书籍仅保存在本地设备。"
+  },
+  {
+    "code": "zh-TW",
+    "language": "Chinese Traditional (繁體中文)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "還原電子紙質感與3D翻頁效果的護眼EPUB與PDF閱讀器。",
+    "long_description": "Heuristic E-Ink Reader 在您的手機與平板上完美重現電子墨水屏（E-Paper）的柔和閱讀體驗，享受如實體書般的閱讀樂趣。\n\n主要特點：\n• 逼真電子紙模擬：16階灰度、Atkinson微點抖動與LUT波形刷新技術。\n• 3D擬真立體翻頁：WebGL Three.js引擎驅動，展現自然流暢的紙張翻折曲面。\n• 實體紙張肌理：毛邊手工紙、羊皮紙、手工和紙與棉紙紋理。\n• EPUB與PDF雙核心：支援動態重排版面與向量級清晰PDF文件。\n• 活版印刷美學：精緻襯線字體、嚴謹齊行排版與油墨微壓印質感。\n• 防光暈夜讀模式：防止夜間暗處閱讀時光暈漫射引發的眼睛疲勞。\n• 100% 離線隱私保護：無廣告、不追蹤。所有書籍僅存儲於本地設備。"
+  },
+  {
+    "code": "ar",
+    "language": "Arabic (العربية)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "قارئ مريح لملفات EPUB و PDF مع ملمس الحبر الإلكتروني وتقليب صفحات ثلاثي الأبعاد.",
+    "long_description": "يحول تطبيق Heuristic E-Ink Reader شاشة هاتفك إلى قارئ كتب إلكترونية بملمس الورق الطبيعي (E-Paper) لحماية العين وتجربة قراءة هادئة.\n\nالميزات الرئيسية:\n• محاكاة واقعية للحبر الإلكتروني: 16 مستوى تدرج رمادي، تقنية تنقيط Atkinson ومحاكاة موجات LUT.\n• تقليب صفحات ثلاثي الأبعاد: محرك WebGL Three.js لانحناء طبيعي وملموس للورق مع اللمس.\n• ملامس ورق حقيقية: ورق حواف خشنة كلاسيكي، رقوق قديمة، وورق قطني طبيعي.\n• معالجة ملفات EPUB و PDF: تخطيط ديناميكي للكتب وعرض متجهي فائق الوضوح للـ PDF.\n• طباعة كلاسيكية راقية: خطوط مريحة ومحاذاة متقنة ومظهر حبر مطبوع واقعي.\n• وضع ليلي مانع للإبهار: يقضي على تشتت الضوء وإجهاد العين في الإضاءة الخافتة.\n• خصوصية كاملة وعمل دون إنترنت: بدون إعلانات وبدون تتبع. كتبك تبقى في جهازك فقط."
+  },
+  {
+    "code": "fa",
+    "language": "Persian (فارسی)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "کتابخوان راحت EPUB و PDF با بافت کاغذ جوهر الکترونیک و ورق زدن سه‌بعدی.",
+    "long_description": "اپلیکیشن Heuristic E-Ink Reader صفحه موبایل شما را به یک کتابخوان جوهر الکترونیک (E-Paper) بدون بازتاب نور و بدون خستگی چشم تبدیل می‌کند.\n\nویژگی‌های برجسته:\n• شبیه‌سازی واقعی جوهر الکترونیک: مقیاس ۱۶ سطحی خاکستری و الگوریتم‌های پیشرفته ماتریس.\n• ورق زدن طبیعی سه‌بعدی: شبیه‌سازی خم شدن فیزیکی کاغذ با لمس انگشت به کمک WebGL.\n• بافت‌های کاغذی طبیعی: کاغذ لبه‌دار دست‌ساز، پوست‌نوشته و کاغذ پنبه‌ای.\n• پشتیبانی از EPUB و PDF: چینش روان متون و نمایش برداری باکیفیت پی‌دی‌اف.\n• تایپوگرافی اصیل چاپ سنگی: تراز دقیق خطوط و عمق جوهر چاپی.\n• حالت شب بدون هاله نور: مناسب برای مطالعه در تاریکی بدون آسیب به چشم.\n• ۱۰۰٪ آفلاین و کاملاً امن: بدون تبلیغات و بدون ردیابی اطلاعات کاربر."
+  },
+  {
+    "code": "hi-IN",
+    "language": "Hindi (हिन्दी)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "ई-इंक पेपर टेक्सचर और 3D पेज टर्न के साथ आंखों के लिए आरामदायक EPUB और PDF रीडर।",
+    "long_description": "Heuristic E-Ink Reader आपके मोबाइल को असली इलेक्ट्रॉनिक पेपर (E-Paper) डिवाइस की तरह बिना चकाचौंध वाली आरामदायक किताब में बदल देता है।\n\nमुख्य विशेषताएं:\n• असली ई-पेपर सिमुलेशन: 16-लेवल ग्रेस्केल और उन्नत LUT वेवफॉर्म तकनीक।\n• 3D रियल पेज कर्ल: स्पर्श के साथ प्राकृतिक रूप से मुड़ने वाले पेज (WebGL Three.js)।\n• प्राकृतिक पेपर टेक्सचर: रफ हैंडमेड पेपर, पार्चमेंट और कॉटन पेपर विकल्प।\n• EPUB और PDF दोनों का समर्थन: सहज टेक्स्ट लेआउट और स्पष्ट वेक्टर PDF रेंडरिंग।\n• लेटरप्रेस मुद्रण शैली: सुंदर फॉन्ट, सटीक अलाइनमेंट और असली स्याही की गहराई।\n• एंटी-हैलोजन नाइट मोड: अंधेरे में आंखों के तनाव को पूरी तरह समाप्त करता है।\n• 100% ऑफलाइन और सुरक्षित: कोई विज्ञापन नहीं, कोई डेटा ट्रैकिंग नहीं। आपकी किताबें पूरी तरह सुरक्षित हैं।"
+  },
+  {
+    "code": "id",
+    "language": "Indonesian (Bahasa Indonesia)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Pembaca EPUB & PDF ramah mata dengan tekstur kertas E-Ink dan efek membalik 3D.",
+    "long_description": "Heuristic E-Ink Reader menghadirkan pengalaman membaca E-Paper yang tenang, tanpa silau, dan nyaman di mata layaknya buku fisik pada ponsel Anda.\n\nFITUR UTAMA:\n• Simulasi E-Paper Asli: 16 tingkat skala abu-abu, dithering Atkinson, dan refresh gelombang LUT.\n• Pembalik Halaman 3D: Animasi lipatan kertas realistis bertenaga WebGL Three.js.\n• Tekstur Kertas Fisik: Pilihan kertas tepi kasar (Deckle Edge), perkamen, washi, dan katun.\n• Pemrosesan Ganda EPUB & PDF: Tata letak teks reflowable dan pembacaan PDF vektor jernih.\n• Tipografi Cetak Klasik: Font EB Garamond, perataan rata kanan-kiri, dan kedalaman tinta cap.\n• Mode Gelap Anti-Halasi: Melindungi mata dari silau saat membaca di ruangan gelap.\n• 100% Offline & Aman: Tanpa iklan, tanpa pelacakan data. Buku Anda hanya tersimpan di perangkat."
+  },
+  {
+    "code": "pl-PL",
+    "language": "Polish (Polski)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Przyjazny dla oczu czytnik EPUB i PDF z teksturą papieru E-Ink i przewracaniem 3D.",
+    "long_description": "Heuristic E-Ink Reader przekształca ekran Twojego telefonu w matowy czytnik E-Paper, zapewniając komfort czytania bez zmęczenia wzroku.\n\nGŁÓWNE FUNKCJE:\n• Realistyczna Symulacja E-Paper: 16 poziomów szarości, dithering Atkinsona i odświeżanie LUT.\n• Fizyczne Przewracanie Stron 3D: Płynne zginanie kartek pod palcem oparte na WebGL Three.js.\n• Autentyczne Tekstury Papieru: Papier czerpany (Deckle Edge), pergamin, washi i bawełna.\n• Podwójny Silnik EPUB i PDF: Płynny układ tekstu oraz krystalicznie czysty rendering wektorowy PDF.\n• Tradycyjna Typografia: Czcionki EB Garamond i Literata, pełne wyjustowanie i głębia tuszu.\n• Tryb Nocny Anti-Halation: Eliminuje poświatę i chroni wzrok podczas czytania w ciemności.\n• 100% Offline i Prywatność: Brak reklam i telemetrii. Książki pozostają wyłącznie na Twoim urządzeniu."
+  },
+  {
+    "code": "nl-NL",
+    "language": "Dutch (Nederlands)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Oogvriendelijke EPUB & PDF lezer met E-Paper papiertextuur en 3D pagina-omslag.",
+    "long_description": "Heuristic E-Ink Reader verandert uw mobiele scherm in een reflectievrije E-Paper e-reader met de serene rust van echt papier.\n\nBELANGRIJKSTE KENMERKEN:\n• Echte E-Paper Simulatie: 16 grijstinten, Atkinson-dithering en LUT-golfvormverversing.\n• 3D Pagina-omslag: Fysiek buigende pagina's die soepel reageren op aanraking via WebGL Three.js.\n• Voelbare Papiertexturen: Geschept papier (Deckle Edge), boekperkament, washi en katoenpapier.\n• EPUB & PDF Ondersteuning: Vloeiende tekstverdeling en haarscherpe vector-PDF weergave.\n• Boekdruk Typografie: EB Garamond, strakke uitlijning en authentieke inktimpressie.\n• Anti-Halatie Nachtmodus: Voorkomt vermoeide ogen en lichtkringen in het donker.\n• 100% Offline & Privé: Geen advertenties, geen tracking. Uw boeken blijven veilig op uw toestel."
+  },
+  {
+    "code": "sv-SE",
+    "language": "Swedish (Svenska)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Ögonvänlig EPUB- & PDF-läsare med äkta E-Paper-pappersstruktur och 3D-bläddring.",
+    "long_description": "Heuristic E-Ink Reader förvandlar din skärm till en behaglig och reflexfri E-Paper-läsare med klassisk bokkänsla.\n\nFUNKTIONER:\n• Äkta E-Paper-simulering: 16 gråskalenivåer, Atkinson-rastrering och LUT-vågformsuppdatering.\n• 3D-sidvändning: Fysiskt böjande boksidor som svarar på fingerberöring via WebGL Three.js.\n• Fysiska Pappersstrukturer: Handgjort papper med råa kanter (Deckle Edge), pergament och bomullspapper.\n• EPUB och PDF: Flödande textbrytning och skarp vektorrendering för PDF-dokument.\n• Boktryckartypografi: EB Garamond, perfekt marginaljustering och naturligt bläckdjup.\n• Anti-Halationsläge: Skonsamt för ögonen och minimerar ljusspridning i mörka miljöer.\n• 100% Offline & Säkert: Inga annonser, ingen spårning. Alla böcker stannar på din enhet."
+  },
+  {
+    "code": "no-NO",
+    "language": "Norwegian (Norsk)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Behagelig EPUB- og PDF-leser med E-Paper-papirstruktur og 3D-sidevending.",
+    "long_description": "Heuristic E-Ink Reader gjør mobilen din om til et refleksfritt E-Paper-lesebrett med følelsen av ekte papir og behagelig lesero.\n\nHOVEDFUNKSJONER:\n• Ekte E-Paper-simulering: 16 gråtoner, Atkinson-dithering og LUT-bølgeformoppdatering.\n• 3D-sidevending: Fysisk bøyning av boksider med WebGL Three.js.\n• Autentiske Papirstrukturer: Råkantet papir (Deckle Edge), bokpergament og bomullspapir.\n• Full EPUB- og PDF-støtte: Dynamisk tekstbryting og skarp vektor-PDF.\n• Klassisk Typografi: EB Garamond, perfekt blokkjustering og naturlig blekkfølelse.\n• Anti-Halasjonsmodus: Skåner synet i mørket og hindrer lysringer rundt teksten.\n• 100% Frakoblet og Trygt: Ingen reklame, ingen sporing. Bøkene dine forblir på enheten."
+  },
+  {
+    "code": "da-DK",
+    "language": "Danish (Dansk)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Behagelig EPUB- & PDF-læser med ægte E-Paper-tekstur og 3D-sideskift.",
+    "long_description": "Heuristic E-Ink Reader forvandler din telefon til en refleksfri E-Paper e-læser med rolig og behagelig læsning for øjnene.\n\nHOVEDFUNKTIONER:\n• Realistisk E-Paper Emulering: 16 gråtoner, Atkinson-dithering og LUT-opdatering.\n• 3D-sidevending: Naturlig bøjning af bogsider baseret på WebGL Three.js.\n• Taktile Papirstrukturer: Håndlavet råkantpapir (Deckle Edge), pergament og bomuldspapir.\n• Dobbelt EPUB & PDF Motor: Fleksibel tekstombrydning og skarp PDF-gengivelse.\n• Bogtryk Typografi: EB Garamond, fuld lige marginer og blækdybde.\n• Anti-Halation Nattilstand: Beskytter øjnene mod blænding i mørke omgivelser.\n• 100% Offline & Privat: Ingen annoncer, ingen sporing. Dine bøger forbliver på din enhed."
+  },
+  {
+    "code": "fi-FI",
+    "language": "Finnish (Suomi)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Silmille lempeä EPUB- ja PDF-lukija aidolla E-Paper-paperituntumalla ja 3D-sivuilla.",
+    "long_description": "Heuristic E-Ink Reader tuo sähköpaperin (E-Paper) rauhallisen ja heijastamattoman lukukokemuksen suoraan puhelimellesi.\n\nTÄRKEIMMÄT OMINAISUUDET:\n• Aito E-Paper-simulaatio: 16 harmaasävyä, Atkinson-rasterointi ja LUT-virkistystilat.\n• 3D-sivunkääntö: WebGL Three.js -fysiikkamoottorilla toteutettu sivujen luonnollinen taipuminen.\n• Fyysiset Paperitekstuurit: Karheapintainen käsintehty paperi, pergamentti ja puuvillapaperi.\n• EPUB- ja PDF-tuki: Sujuva tekstinrivitys ja tarkka vektoripohjainen PDF-lukutila.\n• Painotalon Typografia: EB Garamond -kirjasin, tasattu palsta ja syvä painomusteen tuntu.\n• Häikäisyä estävä Yötila: Vähentää silmien rasitusta ja valokehien muodostumista pimeässä.\n• 100% Offline & Yksityinen: Ei mainoksia, ei seurantaa. Kirjasi pysyvät vain laitteellasi."
+  },
+  {
+    "code": "el-GR",
+    "language": "Greek (Ελληνικά)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Ξεκούραστος αναγνώστης EPUB & PDF με υφή E-Paper και ρεαλιστικό γύρισμα σελίδας 3D.",
+    "long_description": "Το Heuristic E-Ink Reader μετατρέπει την οθόνη σας σε έναν ξεκούραστο αναγνώστη E-Paper χωρίς αντανακλάσεις, με την αυθεντική αίσθηση του έντυπου βιβλίου.\n\nΚΥΡΙΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ:\n• Προηγμένη Προσομοίωση E-Paper: 16 επίπεδα γκρι, rastering Atkinson και ανανέωση κυματομορφής LUT.\n• Ρεαλιστικό Γύρισμα 3D: Φυσικό λύγισμα σελίδας με την αφή μέσω WebGL Three.js.\n• Αυθεντικές Υφές Χαρτιού: Χειροποίητο χαρτί με αδρές άκρες (Deckle Edge), περγαμηνή και βαμβακερό χαρτί.\n• Διπλός Μηχανισμός EPUB & PDF: Ρέουσα σελιδοποίηση κειμένου και καθαρή διανυσματική προβολή PDF.\n• Κλασική Τυπογραφία: Γραμματοσειρά EB Garamond, πλήρης στοίχιση και βάθος μελανιού τυπογραφείου.\n• Λειτουργία Anti-Halation: Προστατεύει τα μάτια από θαμπώματα και άλως στο σκοτάδι.\n• 100% Εκτός Σύνδεσης & Ιδιωτικό: Χωρίς διαφημίσεις, χωρίς παρακολούθηση. Τα βιβλία σας μένουν στη συσκευή σας."
+  },
+  {
+    "code": "cs-CZ",
+    "language": "Czech (Čeština)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Čtečka EPUB a PDF šetrná k očím s texturou E-Paper a 3D otáčením stránek.",
+    "long_description": "Heuristic E-Ink Reader promění váš mobilní displej v matnou elektronickou čtečku E-Paper bez odlesků pro ničím nerušené čtení.\n\nHLAVNÍ FUNKCE:\n• Věrná emulace E-Paper: 16 odstínů šedi, Atkinsonovo dithering a obnova křivky LUT.\n• 3D otáčení stránek: Fyzikální ohýbání listů knihy při dotyku pomocí WebGL Three.js.\n• Autentické textury papíru: Ruční papír s hrubým okrajem (Deckle Edge), pergamen a bavlna.\n• Podpora EPUB a PDF: Plynulá sazba elektronických knih a ostré vektorové vykreslování PDF.\n• Knižní typografie: Písma EB Garamond a Literata, zarovnání do bloku a hloubka knihtisku.\n• Noční režim Anti-Halation: Zabraňuje únavě očí a světelným kruhům při čtení ve tmě.\n• 100% Offline a bezpečné: Žádné reklamy, žádné sledování. Knihy zůstávají pouze ve vašem zařízení."
+  },
+  {
+    "code": "hu-HU",
+    "language": "Hungarian (Magyar)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Szemkímélő EPUB és PDF olvasó valódi E-Paper textúrával és 3D lapozással.",
+    "long_description": "A Heuristic E-Ink Reader a hagyományos papírkönyvek nyugtató, tükröződésmentes E-Paper élményét hozza el telefonjára.\n\nFŐBB JELLEMZŐK:\n• Élethű E-Paper szimuláció: 16 szürkeárnyalat, Atkinson raszterezés és LUT hullámforma frissítés.\n• 3D lapozási élmény: WebGL Three.js alapú természetes papírhajlási fizika érintésre.\n• Tapintható papírtextúrák: Merített rongypapír (Deckle Edge), pergamen és pamutpapír.\n• EPUB és PDF támogatás: Dinamikus szövegtördelés és kristálytiszta vektoros PDF olvasás.\n• Nyomdai tipográfia: EB Garamond betűtípus, sorkizárt igazítás és magasnyomási tintamélység.\n• Anti-Halation éjszakai mód: Megakadályozza a szemfáradtságot és a fényudvarok képződését.\n• 100% Offline és biztonságos: Nincsenek hirdetések, nincs adatgyűjtés. Könyvei a készülékén maradnak."
+  },
+  {
+    "code": "ro-RO",
+    "language": "Romanian (Română)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Cititor EPUB și PDF relaxant pentru ochi cu textură E-Paper și răsfoire 3D.",
+    "long_description": "Heuristic E-Ink Reader transformă telefonul într-un e-reader E-Paper mat și odihnitor pentru ochi, cu farmecul cărților tipărite.\n\nCARACTERISTICI PRINCIPALE:\n• Simulare E-Paper Realistă: 16 nuanțe de gri, dithering Atkinson și reîmprospătare LUT.\n• Răsfoire 3D a Paginilor: Curbare fizică a paginilor la atingere prin WebGL Three.js.\n• Texturi Autentice de Hârtie: Hârtie manuală cu margini brute (Deckle Edge), pergament și bumbac.\n• Motor Dublu EPUB și PDF: Aranjare fluidă a textului și afișare vectorială clară a PDF-urilor.\n• Tipografie de Carte: Fonturi EB Garamond, aliniere justificată și efect de presă tipografică.\n• Mod Noapte Anti-Halație: Protejează vederea în întuneric eliminând reflexiile orbitoare.\n• 100% Offline și Privat: Fără reclame, fără monitorizare. Cărțile rămân doar pe dispozitivul dvs."
+  },
+  {
+    "code": "uk-UA",
+    "language": "Ukrainian (Українська)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Комфортна читалка EPUB та PDF з текстурою E-Paper і 3D-гортанням сторінок.",
+    "long_description": "Heuristic E-Ink Reader перетворює екран вашого смартфона на матову електронну книгу з текстурою справжнього паперу без відблисків.\n\nГОЛОВНІ ОСОБЛИВОСТІ:\n• Реалістична симуляція E-Paper: 16 градацій сірого, дизеринг Аткінсона та оновлення LUT.\n• 3D-гортання сторінок: Природний вигин аркушів під пальцем на базі WebGL Three.js.\n• Натуральні текстури паперу: Нерівні краї (Deckle Edge), книжковий пергамент і бавовна.\n• Підтримка EPUB та PDF: Плавна верстка електронних книг та кришталево чіткий векторний PDF.\n• Вишукана типографіка: Шрифти EB Garamond і Literata, вирівнювання за шириною та глибина друку.\n• Нічний режим Anti-Halation: Знижує втому очей і прибирає ореоли світла навколо літер у темряві.\n• 100% Офлайн і безпечно: Без реклами та стеження. Ваші книги зберігаються лише на пристрої."
+  },
+  {
+    "code": "vi-VN",
+    "language": "Vietnamese (Tiếng Việt)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Trình đọc EPUB & PDF êm dịu cho mắt với vân giấy E-Paper và lật trang 3D sống động.",
+    "long_description": "Heuristic E-Ink Reader biến điện thoại của bạn thành máy đọc sách E-Paper không chói lóa, mang lại trải nghiệm đọc sách giấy thư thái.\n\nTÍNH NĂNG NỔI BẬT:\n• Mô phỏng E-Paper Chân Thực: 16 mức thang xám, thuật toán khử răng cưa Atkinson và làm mới LUT.\n• Lật Trang 3D Chân Thực: Hiệu ứng uốn cong trang sách mượt mà theo ngón tay với WebGL Three.js.\n• Vân Giấy Tự Nhiên: Giấy thủ công viền thô (Deckle Edge), giấy da cổ điển và giấy bông.\n• Đọc Cả EPUB & PDF: Tự động dàn trang mượt mà cho EPUB và hiển thị PDF vector sắc nét.\n• Kiểu Chữ Sách In Cổ Điển: Font EB Garamond, căn đều hai bên và độ chìm mực in sắc sảo.\n• Chế Độ Đêm Chống Lóa: Bảo vệ mắt tối đa khi đọc sách trong không gian tối.\n• 100% Ngoại Tuyến & Riêng Tư: Không quảng cáo, không theo dõi. Sách của bạn luôn an toàn trên máy."
+  },
+  {
+    "code": "th-TH",
+    "language": "Thai (ไทย)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "แอปอ่าน EPUB และ PDF ถนอมสายตา ด้วยผิวสัมผัสกระดาษ E-Paper และพลิกหน้าแบบ 3D",
+    "long_description": "Heuristic E-Ink Reader เปลี่ยนหน้าจอมือถือของคุณให้เป็นเครื่องอ่านหนังสือ E-Paper ที่สบายตา ปราศจากแสงสะท้อน ราวกับอ่านกระดาษจริง\n\nจุดเด่นสำคัญ:\n• จำลอง E-Paper เสมือนจริง: แสดงผลเกรย์สเกล 16 ระดับ พร้อมอัลกอริทึม Dithering ขั้นสูง\n• พลิกหน้าหนังสือแบบ 3D: เทคโนโลยี WebGL Three.js ให้ความรู้สึกโค้งงอของกระดาษตามนิ้วสัมผัส\n• สัมผัสพื้นผิวกระดาษจริง: กระดาษขอบหยักทำมือ (Deckle Edge), กระดาษพาร์ชเมนต์ และกระดาษฝ้าย\n• รองรับทั้ง EPUB และ PDF: จัดหน้าหนังสืออัตโนมัติ และแสดงผล PDF แบบเวกเตอร์คมชัด\n• ตัวพิมพ์สไตล์หนังสือคลาสสิก: ฟอนต์สวยงาม จัดแนวหน้ากระดาษเป็นระเบียบ และความลึกของหมึกพิมพ์\n• โหมดกลางคืนถนอมสายตา: ป้องกันแสงฟุ้งกระจาย ลดความเมื่อยล้าของดวงตาในที่มืด\n• ปลอดภัยและออฟไลน์ 100%: ไม่มีโฆษณา ไม่มีการติดตามข้อมูล หนังสือของคุณจะอยู่บนเครื่องเท่านั้น"
+  },
+  {
+    "code": "ms",
+    "language": "Malay (Bahasa Melayu)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Pembaca EPUB & PDF mesra mata dengan tekstur kertas E-Paper dan selak halaman 3D.",
+    "long_description": "Heuristic E-Ink Reader menukar peranti anda menjadi pembaca E-Paper yang tenang, bebas silau dan selesa untuk mata seperti buku fizikal.\n\nCIRI-CIRI UTAMA:\n• Simulasi E-Paper Sebenar: 16 tahap skala kelabu, algoritma Atkinson dan segar semula LUT.\n• Selak Halaman 3D Realistik: Lenturan kertas fizikal berkuasa WebGL Three.js mengikut sentuhan jari.\n• Tekstur Kertas Fizikal: Kertas buatan tangan (Deckle Edge), perkamen vintaj dan kertas kapas.\n• Sokongan Dwi EPUB & PDF: Susun atur teks dinamik dan paparan PDF vektor yang tajam.\n• Tipografi Buku Cetak: Fon EB Garamond, jajaran penuh kedua-dua belah dan kedalaman dakwat cap.\n• Mod Malam Anti-Halasi: Melindungi mata daripada silau ketika membaca dalam gelap.\n• 100% Luar Talian & Privasi: Tanpa iklan, tanpa penjejakan. Buku anda kekal selamat dalam peranti."
+  },
+  {
+    "code": "he-IL",
+    "language": "Hebrew (עברית)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "קורא EPUB ו-PDF נוח לעיניים עם מרקם נייר E-Paper ודפדוף תלת-ממדי מציאותי.",
+    "long_description": "אפליקציית Heuristic E-Ink Reader הופכת את מסך הטלפון לקורא ספרים אלקטרוני רגוע ונטול השתקפויות, המדמה קריאה בספר אמיתי.\n\nתכונות עיקריות:\n• הדמיית E-Paper מתקדמת: 16 גווני אפור, אלגוריתמי דיתרינג ורענון גלי מתח מדויק.\n• דפדוף תלת-ממדי טבעי: כיפוף דפים פיזיקלי וזורם בתגובה למגע בעזרת WebGL Three.js.\n• מרקמי נייר אותנטיים: נייר גס עם שוליים טבעיים (Deckle Edge), קלף עתיק ונייר כותנה.\n• תמיכה כפולה ב-EPUB ו-PDF: עימוד טקסט חי ודינמי לצד תצוגת PDF וקטורית וחדה.\n• טיפוגרפיה איכותית: יישור שורות מושלם, גופנים ספרותיים ועומק דיו של דפוס בלט.\n• מצב לילה למניעת סינוור: שומר על העיניים בחושך ומונע הילות אור סביב הטקסט.\n• 100% לא מקוון ובטוח: ללא פרסומות וללא מעקב נתונים. הספרים נשמרים במכשירך בלבד."
+  },
+  {
+    "code": "az-AZ",
+    "language": "Azerbaijani (Azərbaycanca)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Göz yormayan, real E-Paper kağız teksturası və 3D səhifə çevirməsi olan EPUB & PDF oxucu.",
+    "long_description": "Heuristic E-Ink Reader mobil cihazınızın ekranını parıltısız və rahat bir E-Paper elektron kitabına çevirir.\n\nƏSAS XÜSUSİYYƏTLƏR:\n• Real E-Paper Simulyasiyası: 16 səviyyəli boz tonlama, Atkinson dither alqoritmi və LUT dalğa yenilənməsi.\n• 3D Real Səhifə Çevirmə: WebGL Three.js ilə barmaq toxunuşuna həssas təbii kağız bükülməsi.\n• Orijinal Kağız Teksturaları: Tırtıllı kəsimli (Deckle Edge), perqament və pambıq kağız növləri.\n• EPUB və PDF Dəstəyi: Dinamik mətn axını və yüksək dəqiqlikli vektor PDF oxunuşu.\n• Mətbəə Tipoqrafiyası: EB Garamond və Literata şriftləri, hər iki tərəfə bərabər düzlənmə.\n• Qaranlıqda Anti-Halasiya Rejimi: Qaranlıqda göz yorğunluğunu və işıq saçılmasını tam aradan qaldırır.\n• 100% Oflayn və Təhlükəsiz: Reklamsız, izləməsiz. Kitablarınız yalnız cihazınızda saxlanılır."
+  },
+  {
+    "code": "kk-KZ",
+    "language": "Kazakh (Қазақша)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Көзді шаршатпайтын, E-Paper қағаз құрылымы мен 3D парақтауы бар EPUB & PDF оқу құралы.",
+    "long_description": "Heuristic E-Ink Reader смартфоныңыздың экранын көзді талдырмайтын, шынайы кітап сезімін сыйлайтын электронды қағазға (E-Paper) айналдырады.\n\nБАСТЫ МҮМКІНДІКТЕРІ:\n• Шынайы E-Paper симуляциясы: 16 деңгейлі сұр реңк, Atkinson дизерингі және LUT жаңартуы.\n• 3D қағаз парақтау: WebGL Three.js арқылы саусақ қозғалысына сай табиғи иілетін беттер.\n• Нағыз қағаз құрылымы: Қолдан жасалған жиектері бар қағаз, пергамент және мақта қағазы.\n• EPUB және PDF қолдауы: Мәтінді ыңғайлы реттеу және анық векторлық PDF көрсету.\n• Баспаханалық типографика: Сапалы қаріптер, мінсіз түзету және сия басылымының тереңдігі.\n• Түнгі оқу режімі: Қараңғыда көздің шаршауын және жарық шағылысуын болдырмайды.\n• 100% Офлайн және Қауіпсіз: Жарнамасыз, бақылаусыз. Кітаптарыңыз тек құрылғыңызда сақталады."
+  },
+  {
+    "code": "uz-UZ",
+    "language": "Uzbek (O'zbekcha)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Ko'zni toliqtirmaydigan, E-Paper qog'oz teksturasi va 3D sahifa varaqlashli EPUB & PDF kitobxoni.",
+    "long_description": "Heuristic E-Ink Reader telefoningiz ekranini ko'zga qulay, nur qaytarmaydigan haqiqiy elektron qog'oz (E-Paper) kitobxonga aylantiradi.\n\nASOSIY IMKONIYATLAR:\n• Haqiqiy E-Paper Simulyatsiyasi: 16 darajali kulrang tus, Atkinson ditheri va LUT to'lqin yangilanishi.\n• 3D Sahifa Varaqlash: WebGL Three.js orqali barmoq harakatiga mos tabiiy qog'oz bukilishi.\n• Tabiiy Qog'oz Teksturalari: Qirralari kesilmagan qo'lbola qog'oz (Deckle Edge), pergament va paxta qog'oz.\n• EPUB va PDF Dvigateli: Matnni qulay taqsimlash va yuqori sifatli vektorli PDF o'qish.\n• Bosmaxona Tipografikasi: Mukammal tekislash, sifatli shriftlar va bosma siyoh chuqurligi.\n• Tungi Rejim: Qorong'ida ko'z qamashishi va charchashining oldini oladi.\n• 100% Oflayn va Maxfiy: Reklamasiz, kuzatuvsiz. Kitoblaringiz faqat qurilmangizda saqlanadi."
+  },
+  {
+    "code": "bg-BG",
+    "language": "Bulgarian (Български)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Щадящ зрението четец за EPUB и PDF с текстура на E-Paper хартия и 3D прелистване.",
+    "long_description": "Heuristic E-Ink Reader превръща екрана на вашето устройство в матов E-Paper четец без отблясъци за спокойно и комфортно четене.\n\nОСНОВНИ ХАРАКТЕРИСТИКИ:\n• Реалистична E-Paper симулация: 16 нива на сивото, дитеринг на Аткинсън и LUT обновяване.\n• 3D прелистване на страници: Естествено огъване на хартията при докосване с WebGL Three.js.\n• Автентични текстури на хартия: Ръчна хартия с неравни краища (Deckle Edge), пергамент и памук.\n• Поддръжка на EPUB и PDF: Динамично преоформяне на текста и кристално чисто PDF визуализиране.\n• Класическа типография: Шрифтове EB Garamond, двустранно подравняване и дълбочина на мастилото.\n• Нощен режим Anti-Halation: Премахва ореолите и напрежението в очите при четене на тъмно.\n• 100% Офлайн и безопасно: Без реклами, без проследяване. Книгите остават единствено на вашето устройство."
+  },
+  {
+    "code": "hr-HR",
+    "language": "Croatian (Hrvatski)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Ugodan EPUB i PDF čitač s teksturom E-Paper papira i 3D listanjem stranica.",
+    "long_description": "Heuristic E-Ink Reader pretvara vaš mobilni zaslon u nereflektirajući E-Paper e-čitač s opuštajućim osjećajem prave knjige.\n\nGLAVNE ZNAČAJKE:\n• Realistična E-Paper Simulacija: 16 razina sivih tonova, Atkinsonov dithering i osvježavanje LUT-a.\n• 3D Okretanje Stranica: Fizičko savijanje stranica na dodir prsta pomoću WebGL Three.js.\n• Fizičke Teksture Papira: Ručno rađeni papir s grubim rubovima (Deckle Edge), pergament i pamuk.\n• Podrška za EPUB i PDF: Prilagodljiv prijelom teksta i oštar vektorski prikaz PDF-a.\n• Knjiška Tipografija: Fontovi EB Garamond, obostrano poravnanje i dubina tiskarske tinte.\n• Noćni Način Protiv Zamućenja: Štiti vid u mraku i sprječava naprezanje očiju.\n• 100% Izvanmrežno i Privatno: Bez reklama i praćenja. Vaše knjige ostaju samo na vašem uređaju."
+  },
+  {
+    "code": "sr-RS",
+    "language": "Serbian (Srpski)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Угодан EPUB и PDF читач са текстуром E-Paper папира и 3D окретањем страница.",
+    "long_description": "Heuristic E-Ink Reader претвара екран вашег мобилног уређаја у матов E-Paper читач без одсјаја за пријатно читање без замора очију.\n\nГЛАВНЕ КАРАКТЕРИСТИКЕ:\n• Реална E-Paper симулација: 16 нијанси сиве, Аткинсонов дитеринг и LUT освежавање.\n• 3D окретање страница: Природно савијање страница на додир покретано WebGL Three.js мотором.\n• Аутентичне текстуре папира: Ручно прављени папир грубих ивица (Deckle Edge), пергамент и памук.\n• Подршка за EPUB и PDF: Течно преламање текста и кристално јасан векторски PDF приказ.\n• Књишка типографија: EB Garamond писма, обострано равнање и утисак штампарске боје.\n• Ноћни режим без ореола: Елиминише напрезање очију током читања у мраку.\n• 100% Ван мреже и безбедно: Без реклама и праћења. Књиге се чувају искључиво на вашем уређају."
+  },
+  {
+    "code": "sk-SK",
+    "language": "Slovak (Slovenčina)",
+    "title": "Heuristic E-Ink Reader",
+    "short_description": "Čítačka EPUB a PDF šetrná k očiam s textúrou papiera E-Paper a 3D otáčaním strán.",
+    "long_description": "Heuristic E-Ink Reader premení displej vášho smartfónu na matnú elektronickú čítačku E-Paper pre ničím nerušený čitateľský zážitok.\n\nHLAVNÉ VLASTNOSTI:\n• Verná simulácia E-Paper: 16 úrovní odtieňov sivej, Atkinsonovo dithering a obnova LUT krivky.\n• 3D otáčanie strán: Fyzikálne ohýbanie listov knihy pri dotyku poháňané WebGL Three.js.\n• Autentické textúry papiera: Ručný papier s hrubým okrajom (Deckle Edge), pergamen a bavlna.\n• Podpora EPUB a PDF: Plynulá sadzba textu a dokonale ostré vektorové vykresľovanie PDF.\n• Tradičná typografia: Písma EB Garamond a Literata, zarovnanie do bloku a hĺbka kníhtlače.\n• Nočný režim Anti-Halation: Chráni zrak v tme a zabraňuje vzniku svetelných kruhov okolo písma.\n• 100% Offline a bezpečné: Bez reklám a sledovania údajov. Vaše knihy zostávajú iba vo vašom zariadení."
+  }
+]
