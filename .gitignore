@@ -1,6 +1,7 @@
 # Books and Documents (Exclude from Git repository)
 *.epub
 *.pdf
+!E-Ink_Okuma_Uygulamasi_Mimarisi_ve_Gelistirme_Raporu.pdf
 *.mobi
 *.azw3
 *.fb2
@@ -19,6 +20,7 @@
 *.apk
 
 # Dependencies & Build Artefacts
+.gradle_home/
 node_modules/
 .expo/
 dist/
